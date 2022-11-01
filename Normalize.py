@@ -6,7 +6,6 @@ from sklearn import preprocessing
 
 
 con = sqlite3.connect("C:/Users/MikhailAnd/Desktop/Result/DATA.db")
-df = pd.read_sql("SELECT * FROM Positive", con)
 
 
 #F_frag
