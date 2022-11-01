@@ -88,15 +88,6 @@ with sqlite3.connect(r'C:/Users/MikhailAnd/Desktop/Result/DATAn.db') as con:
     ZCRTEO_frag REAL,
     ZCR_frag REAL )''')
 
-print(len(n_F_frag))
-print(len(n_STETEOF_1_frag))
-print(len(n_STETEOF_2_frag))
-print(len(n_STETEO_frag))
-print(len(n_STEZCRTEO_1_frag))
-print(len(n_STEZCRTEO_2_frag))
-print(len(n_STE_frag))
-print(len(n_ZCRTEO_frag))
-print(len(n_ZCR_frag))
 
 for i3 in range(0,len(_F_frag)):
     c = con.cursor()

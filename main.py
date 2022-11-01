@@ -87,16 +87,6 @@ with sqlite3.connect(r'C:/Users/MikhailAnd/Desktop/Result/DAT.db') as con:
     ZCRTEO_frag REAL,
     ZCR_frag REAL )''')
 
-print(len(_F_frag))
-print(len(_STETEOF_1_frag))
-print(len(_STETEOF_2_frag))
-print(len(_STETEO_frag))
-print(len(_STEZCRTEO_1_frag))
-print(len(_STEZCRTEO_2_frag))
-print(len(_STE_frag))
-print(len(_ZCRTEO_frag))
-print(len(_ZCR_frag))
-
 for i3 in range(0,len(_F_frag)):
     c = con.cursor()
     c.execute('''INSERT INTO Positive(F_frag, STETEOF_1_frag , STETEOF_2_frag, STETEO_frag, STEZCRTEO_1_frag,
